@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Images/myProfilePic.png";
+import myImg from "../../Images/profile-img.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -23,76 +23,60 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C, C++, Javascript, Typescript </b>
+                <b className="purple"> C++, Javascript, React.js </b>
               </i>
               <br />
               <br />
               I'm passionate about developing innovative
               <i>
                 <b className="purple"> Web Technologies</b>{" "}
-              </i> {" "}
+              </i>{" "}
               with a keen interest in solving problem statement{" "}
               {/* <b className="purple">
                   Blockchain.
                 </b> */}
-
               <br />
               <br />
-              As a Former Backend Developer at  <i><b className="purple">
-                PhysicsWallah</b></i> , I specialize in Tech Stack :
+              As a Former Frontend Developer at{" "}
+              <i>
+                <b className="purple">Incedo</b>
+              </i>{" "}
+              , I specialize in Tech Stack :
+              <i>
+                <b className="purple"> HTML5/CSS3 </b>
+              </i>
+              &nbsp; ,
               <i>
                 <b className="purple"> Javascript</b>
               </i>
               &nbsp; ,
               <i>
-                <b className="purple">
-                  {" "}
-                  TypeScript
-                </b>
+                <b className="purple"> React.js</b>
               </i>
               &nbsp; ,
               <i>
-                <b className="purple">
-                  {" "}
-                  MongoDB
-                </b>
-              </i>,
+                <b className="purple"> Redux</b>
+              </i>
+              ,              
               <i>
-                <b className="purple">
-                  {" "}
-                  PostgreSQL
-                </b>
+                <b className="purple"> TypeScript</b>
               </i>
               &nbsp; ,
               <i>
-                <b className="purple">
-                  {" "}
-                  Redis</b>
+                <b className="purple"> SQL</b>
               </i>
               &nbsp; ,
               <i>
-                <b className="purple">
-                  {" "}
-                  SQL</b>
+                <b className="purple"> Node.js</b>
               </i>
-              &nbsp; ,
+              &nbsp; , and
               <i>
-                <b className="purple">
-                  {" "}
-                  Apache Kafka</b>
+                <b className="purple"> Agile Methodoligies</b>
               </i>
-              &nbsp; ,
-              <i>
-                <b className="purple">
-                  {" "}
-                  Jest</b>
-              </i>
-              &nbsp; and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Microservices</b>
-              </i>
+              &nbsp; 
+              {/* <i>
+                <b className="purple"> Microservices</b>
+              </i> */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -110,7 +94,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/sawansloka"
+                  href="https://github.com/HEERAL-d1606"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -118,19 +102,10 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
+            
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/SawanSloka"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/sawansloka"
+                  href="https://www.linkedin.com/in/heeral-dataulia-86a964201"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

@@ -3,85 +3,157 @@ import { Container, Row, Col } from "react-bootstrap";
 import ExperienceCard from "./ExperienceCard";
 import Particle from "../Particle";
 import maddieLogo from "../../Assets/Experiences/madiee_logo.png";
-import pwLogo from "../../Assets/Experiences/pw_logo.png"
+import pwLogo from "../../Assets/Experiences/pw_logo.png";
 import buzzleLogo from "../../Assets/Experiences/buzzleLogo.png";
 
 function Experience() {
-    return (
-        <Container fluid className="project-section">
-            <Particle />
-            <Container>
-                <h1 className="project-heading">
-                    My <strong className="purple">Work Experience </strong>
-                </h1>
-                <p style={{ color: "white" }}>
-                    Experiences gained so far
-                </p>
-                <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-                    <Col md={4} className="project-card">
-                        <ExperienceCard
-                            imgPath={pwLogo}
-                            title="PhysicsWallah"
-                            role="Software Developer"
-                            date="June 2023 - May 2024"
-                            description={
-                                <>
-                                    <ul>
-                                        <li>Drafted the Low Level Diagram for 4 PRD and implemented the required flow, including Unit Testing</li>
-                                        <li>Rectified the Juspay payment flow for over 1 million pending transactions, introducing new APIs to handle all edge cases</li>
-                                        <li>Enhanced existing APIs by implementing Redis cache and improving the Time Complexity, thus reducing p90 latency from 500-600 milliseconds to 25-30 milliseconds, as observed via DataDog, Grafana</li>
-                                        <li>Designed and implemented an Invoice template, streamlining purchase calculations for various package buying conditions, resulting in a 30% reduction in processing time</li>
-                                        <li>Successfully integrated an SMS API, automating invitation messages to students upon session booking, including the meeting link, leading to a 50% increase in session attendance</li>
-                                        <li>Pioneered new innovations, such as a Payment landing page and enhancements to Cohort changes and Batches, driving a 20% improvement in user engagement metrics</li>
-                                        <li>Engineered a Snooze feature utilizing a Linked List concept, resulting in a 15% increase in plan upgrades and user retention</li>
-                                        <li>Spearheaded initiatives focused on optimizing Cohorts, Batches, Payment flow, and Batch-Scheduling, resulting in a 25% enhancement in overall platform efficiency</li>
-                                    </ul>
-                                    <p>Technologies: NodeJS, NestJs, Apache kafka, Jest, MongoDB, Jenkins, DataDog, Grafana, ArgoCD, Redis, SQL</p>
-                                </>
-                            }
-                        />
-                    </Col>
-                    <Col md={4} className="project-card">
-                        <ExperienceCard
-                            imgPath={buzzleLogo}
-                            title="BUZZLE"
-                            role="Web Developer Intern"
-                            date="June 2023 - August 2023"
-                            description={
-                                <>
-                                    <ul>
-                                        <li>A portal to see the characters of Pokemon and their Strength like Height, Weight, Defense, Hp, Species, Type, Attack with Id’s present in every character card pokedex is built by feching a data from Pokemon API.</li>
-                                        <li>Integrated APIs and Payment Gateways for over 100 Exclusive Live Events</li>
-                                        <li>Resolved Virtual Static Space issue with socket.io, boosting user engagement by 30%</li>
-                                        <li>Worked on Audio interaction with 70% efficiency during live collaboration</li>
-                                    </ul>
-                                    <p>Technologies: NodeJS, ReactJs, MongoDB, HTML/CSS, socket.io</p>
-                                </>
-                            }
-                        />
-                    </Col>
+  return (
+    <Container fluid className="project-section">
+      <Particle />
+      <Container>
+        <h1 className="project-heading">
+          My <strong className="purple">Work Experience </strong>
+        </h1>
+        <p style={{ color: "white" }}>
+          Experiences gained in Incedo as Frontend Developer
+        </p>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ExperienceCard
+            //   imgPath={pwLogo}
+              title="1. RAD"
+              // role="Frontend Developer"
+              date="Feb 2023 - Sep 2024"
+              description={
+                <>
+                  <ul>
+                    <li>
+                      Constructed and maintained responsive user interfaces
+                      using React JS, CSS, HTML, and JavaScript, enhanching user
+                      interaction and satisfaction.
+                    </li>
+                    <li>
+                      Architected a scalable Redux architecture that supported
+                      20+ components, enhancing the maintainability of the
+                      codebase and allowing for a 50% faster deployment cycle
+                      for new features and updates.
+                    </li>
+                    <li>
+                      Integrated RESTful APIs with the frontend using Axios,
+                      improving data communication and reducing load times by
+                      20%.
+                    </li>
+                    <li>
+                      Engaged with 12 team members from design, development, and
+                      QA to implement 4 innovative features on schedule; project
+                      completion led to a 15% increase in user engagement and
+                      retention.
+                    </li>
+                    <li>
+                      Designed reusable UI components, accelerating development
+                      cycles by 30% and promoting code reusability across
+                      multiple projects.
+                    </li>
+                    <li>
+                      Applied agile methodologies, contributing to over 30 daily
+                      stand-ups, 10+ sprint planning sessions, and 5
+                      retrospectives, which led to a 20% improvement in project
+                      workflow efficiency.
+                    </li>
+                  </ul>
+                  <p>
+                    Technologies: React JS, Redux, Axios, CSS, HTML, JavaScript,
+                    MUi, Bootstrap, Agile Methodologies, JIRA
+                  </p>
+                </>
+              }
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ExperienceCard
+            //   imgPath={buzzleLogo}
+              title="2. TIMESHEET"
+              // role=""
+              date="Oct 2023 - Jan 2024"
+              description={
+                <>
+                  <ul>
+                    <li>
+                      Developed a grid table using MUI for employees to log
+                      their weekly working hours, enhancing data accuracy by
+                      30%.
+                    </li>
+                    <li>
+                      Styled the main page to improve user experience, leading
+                      to a 20% increase in employee satisfaction.
+                    </li>
+                    <li>
+                      Created a Save button that stored data and sent an
+                      automated email to employees, confirming entries and
+                      reducing errors by 25%.
+                    </li>
+                    <li>
+                      Implemented a confirmation pop-up upon submission to
+                      ensure 100% data validation before finalizing timesheets.
+                    </li>
+                  </ul>
 
-                    <Col md={4} className="project-card">
-                        <ExperienceCard
-                            imgPath={maddieLogo}
-                            title="MADIEE Games"
-                            role="Web Developer Intern"
-                            date="July 2022 - August 2022"
-                            description={
-                                <>
-                                    <ul>
-                                        <li>Developed a multiplayer game inspired by the Wavelength board game, garnering 1,000+ downloads in its debut month</li>
-                                        <li>Crafted an engaging guessing game with ReactCSSTransitionGroup, boosting user interaction by 30%</li>
-                                        <li>Created a Points Table with basic OOPS concept, enhancing user experience and boosting player retention by 20%</li>
-                                    </ul>
-                                    <p>Technologies: NodeJS, ReactJs, MongoDB, HTML/CSS, socket.io, PeerJs</p>
-                                </>
-                            }
-                        />
-                    </Col>
-                </Row>
-            </Container>
-        </Container>
-    );
+                  <p>
+                    Technologies:React JS, Redux, Axios, CSS, HTML, JavaScript,
+                    MUi, Bootstrap, Agile Methodologies, JIRA
+                  </p>
+                </>
+              }
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ExperienceCard
+            //   imgPath={maddieLogo}
+              title="3. HACKATHON"
+              // role="Web Developer Intern"
+              date="Aug 2023 - Oct 2023"
+              description={
+                <>
+                  <ul>
+                    <li>
+                      Engineered a role management system with 3 distinct user
+                      roles (participant, panelist, judge), enhancing access
+                      control and streamlining workflow efficiency by 20%.
+                    </li>
+                    <li>
+                      Conducted in-depth research and designed 10 wireframes,
+                      converting user requirements into intuitive and
+                      user-friendly interfaces.
+                    </li>
+                    <li>
+                      Redesigned the user interface using HTML, CSS, JavaScript,
+                      ReactJS, and Bootstrap, leading to a 25% increase in user
+                      engagement.
+                    </li>
+                    <li>
+                      Evaluated and documented the manual process, gathering
+                      requirements from 5 key stakeholders to ensure the
+                      application met 100% of functional needs.
+                    </li>
+                    <li>
+                      Deployed the web application on a cloud platform,
+                      utilizing modern web technologies to boost performance and
+                      scalability by 30%.
+                    </li>
+                  </ul>
+
+                  <p>
+                    Technologies: React JS, Redux, Axios, CSS, HTML, JavaScript,
+                    MUi, Bootstrap, Agile Methodologies, JIRA
+                  </p>
+                </>
+              }
+            />
+          </Col>
+        </Row>
+      </Container>
+    </Container>
+  );
 }
 export default Experience;

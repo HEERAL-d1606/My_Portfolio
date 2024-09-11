@@ -24,7 +24,7 @@ function ExperienceCard(props) {
     return (
         <Card className="project-card-view">
             <div className="circle-img">
-                <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+                {/* <Card.Img variant="top" src={props.imgPath} alt="card-img" /> */}
             </div>
             <div className={`title-background ${titleBackgroundClass}`}>
                 <Card.Title className="title-text"><h3>{props.title}</h3></Card.Title>

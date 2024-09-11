@@ -14,16 +14,16 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Sloka Sawan</h3>
+          <h3>Designed and Developed by Heeral Dataulia</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SS</h3>
+          <h3>Copyright © {year} HD</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/sawansloka"
+                href="https://github.com/HEERAL-d1606"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -31,19 +31,10 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
+            
             <li className="social-icons">
               <a
-                href="https://twitter.com/SawanSloka"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/sawansloka/"
+                href="https://www.linkedin.com/in/heeral-dataulia-86a964201"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
