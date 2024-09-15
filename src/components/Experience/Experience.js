@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ExperienceCard from "./ExperienceCard";
 import Particle from "../Particle";
-import maddieLogo from "../../Assets/Experiences/madiee_logo.png";
-import pwLogo from "../../Assets/Experiences/pw_logo.png";
-import buzzleLogo from "../../Assets/Experiences/buzzleLogo.png";
+// import maddieLogo from "../../Assets/Experiences/madiee_logo.png";
+// import pwLogo from "../../Assets/Experiences/pw_logo.png";
+// import buzzleLogo from "../../Assets/Experiences/buzzleLogo.png";
 
 function Experience() {
   return (
